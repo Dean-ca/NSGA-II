@@ -34,7 +34,7 @@ def sort_by_values(list1, values):
         values[index_of(min(values),values)] = math.inf
     return sorted_list
 
-#Function to carry out NSGA-II's fast non dominated sort
+#function to carry out NSGA-II's fast non dominated sort
 def fast_non_dominated_sort(values1, values2):
     S=[[] for i in range(0,len(values1))]
     front = [[]]
